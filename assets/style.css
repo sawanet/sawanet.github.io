@@ -1,3 +1,21 @@
+.header {
+  text-align: center;
+  padding: 20px 0;
+  background: #004aad;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px; /* مسافة بين الشعار والنص */
+}
+
+.logo {
+  height: 50px; /* يمكنك تعديل الحجم حسب الحاجة */
+}
+
 body {
   font-family: Tahoma, Arial, sans-serif;
   background: #f7f7f7;
