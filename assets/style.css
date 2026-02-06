@@ -1,6 +1,6 @@
 body {
   font-family: Tahoma, Arial, sans-serif;
-  background: #f7f7f7;
+   background: red !important;
   margin: 0;
   padding: 0;
   direction: rtl;
