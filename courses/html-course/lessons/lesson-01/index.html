@@ -2,26 +2,49 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>الدرس الأول – المعادلات</title>
+  <title>الدرس الأول  - حل معادلتين من الدرجة الأولى </title>
   <link rel="stylesheet" href="../../../../assets/style.css">
+  <style>
+    /* تنسيق iframe */
+    .pdf-viewer {
+      width: 100%;
+      height: 600px;
+      border: 1px solid #ccc;
+      margin-bottom: 15px;
+    }
+    .download-link {
+      display: inline-block;
+      padding: 8px 15px;
+      background-color: #d9534f;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .download-link:hover {
+      background-color: #c9302c;
+    }
+  </style>
 </head>
 <body>
 
 <div class="container">
-  <h3>الدرس الأول: حل معادلتين من الدرجة الأولى</h3>
+  <h3>الدرس الأول  - حل معادلتين من الدرجة الأولى</h3>
 
-  <ul>
-    <li>
-      📄 <a href="lesson-01.pdf" download>
-        تحميل ملف الشرح (PDF)
-      </a>
-    </li>
-    <li>
-      🧪 <a href="test-01.html" target="_blank">
-        اختبار الدرس
-      </a>
-    </li>
-  </ul>
+  <!-- عرض PDF داخل Iframe -->
+  <iframe src="lesson.pdf" class="pdf-viewer"></iframe>
+
+  <!-- رابط التحميل -->
+  <p>
+    <a href="lesson.pdf" download class="download-link">⬇ تحميل ملف الشرح (PDF)</a>
+  </p>
+
+  <hr>
+
+  <!-- رابط الاختبار -->
+  <p>
+    🧪 <a href="test.html" target="_blank">اختبار الدرس</a>
+  </p>
 
   <p>
     <a href="../">⬅ العودة إلى دروس الكورس</a>
@@ -30,4 +53,3 @@
 
 </body>
 </html>
-
